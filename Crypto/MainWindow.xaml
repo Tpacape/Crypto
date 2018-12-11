@@ -1,0 +1,16 @@
+﻿<Window x:Class="Crypto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Crypto"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="buttonEntrainement" Content="Entrainement" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="113" Height="36" Click="buttonEntrainement_Click"/>
+        <Button x:Name="buttonEnregistrer" Content="Enregistrer" HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" Width="113" Height="36" Click="buttonEnregistrer_Click"/>
+        <Button x:Name="buttonTester" Content="Tester" HorizontalAlignment="Left" Margin="176,10,0,0" VerticalAlignment="Top" Width="113" Height="36" Click="buttonTester_Click"/>
+        <Button x:Name="buttonCharger" Content="Charger" HorizontalAlignment="Left" Margin="176,147,0,0" VerticalAlignment="Top" Width="113" Height="36" Click="buttonCharger_Click"/>
+        <Button x:Name="buttonTesterAutomatique" Content="Tester Automatique" HorizontalAlignment="Left" Margin="348,10,0,0" VerticalAlignment="Top" Width="113" Height="36" Click="buttonTesterAutomatique_Click"/>
+    </Grid>
+</Window>
